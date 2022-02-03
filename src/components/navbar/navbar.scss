@@ -3,17 +3,25 @@
 .navbar {
     width: 100%;
     height: 70px;
-    background-color:$mainColor;
+    background-color:#234E70;
     color: $mainColor;
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 1s ease;
 
     .wrapper {
-        padding: 10px 30px;
+        padding: 15px 25px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .logo {
+            font-size: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            color: inherit;
+        }
 
         .right {
 
@@ -28,7 +36,9 @@
                 span {
                     width: 100%;
                     height: 3px;
-                    background-color: #234E70;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 2s ease;
                   
                 
             }
@@ -37,19 +47,21 @@
     }
 
     &.active {
-        background-color:  #234E70;
-        color: white;
+        background-color: $mainColor;
+        color: #FBF8BE;
 
         .hamburger {
             span {
                 &:first-child {
                     background-color: #FBF8BE;
+                    transform: rotate(45deg);
                 }
                 &:nth-child(2) {
                     opacity: 0;
                 }
                 &:last-child {
                     background-color: #FBF8BE;
+                    transform: rotate(-45deg);
                 }
             }
         }

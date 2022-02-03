@@ -1,11 +1,11 @@
 .app {
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #234E70;
 
     .sections {
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: #FCEDDA       ;
+        background-color: #FCEDDA;      ;
         position: relative;
         top: 70px;
         scroll-snap-type: y mandatory;
