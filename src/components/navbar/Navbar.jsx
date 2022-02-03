@@ -5,9 +5,12 @@ export default function Navbar() {
         <div className="navbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro">About Me</a>
+                    <a href="#intro" className = 'logo' >AMY</a>
 
+                    <div className = 'itemContainer'>
+                    </div>
                 </div>
+                
                 <div className="right">
                    
                 </div>
