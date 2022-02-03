@@ -4,15 +4,13 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <div className="wrapper">
-                <div className="left">
-                    <a href="#intro" className = 'logo' >AMY</a>
-
-                    <div className = 'itemContainer'>
-                    </div>
+                <div className="right"> 
+                <div className="hamburger">
+                    <span className="line1"></span>
+                    <span className="line2"></span>
+                    <span className="line3"></span>
                 </div>
-                
-                <div className="right">
-                   
+
                 </div>
             </div>
         </div>
