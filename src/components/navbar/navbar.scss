@@ -47,20 +47,20 @@
     }
 
     &.active {
-        background-color: $mainColor;
-        color: #234E70;
+        background-color: #234E70;
+        color: #FFF;
 
         .hamburger {
             span {
                 &:first-child {
-                    background-color: #234E70;
+                    background-color: #FFF;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2) {
                     opacity: 0;
                 }
                 &:last-child {
-                    background-color: #234E70;
+                    background-color: #FFF;
                     transform: rotate(-45deg);
                 }
             }
