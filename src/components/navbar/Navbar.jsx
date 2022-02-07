@@ -2,8 +2,7 @@ import "./navbar.scss"
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
-        // <div className={"navbar" + (menuOpen && "active")}>
-         <div className="navbar"> 
+        <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">
