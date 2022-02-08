@@ -7,6 +7,8 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import "./app.scss"
 import { useState } from "react";
 
+
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -19,8 +21,11 @@ function App() {
       <Portfolio/>
       <Contact/>
     </div>
+
     </div>
+
   );
+
 }
 
 export default App;
