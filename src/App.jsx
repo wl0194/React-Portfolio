@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import AboutMe from "./components/aboutMe/AboutMe";
+import Works from "./components/works/Works";
 import "./app.scss"
 import { useState } from "react";
 
@@ -19,6 +20,7 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Portfolio/>
+      <Works/>
       <Contact/>
     </div>
 
