@@ -12,9 +12,9 @@ export default function AboutMe() {
             </div>
             <div className="right">
             <div className="wrapper">
-                <h2>Welcome!</h2>
+                <h2>Welcome</h2>
                 <h3>My name is Amy Hwang and I'm a</h3> 
-                <h4>Front End Web Developer</h4>
+                <p>Front End Web Developer</p>
             </div>
             </div>
 
