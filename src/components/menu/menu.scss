@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .menu {
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background-color: #234E70;
     position: fixed;
@@ -23,7 +23,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 300;
         color: #FFF;
         width: 60%;
@@ -38,6 +38,7 @@
 
             &:hover {
                 font-weight: 500;
+                
             }
         }
     }
