@@ -11,11 +11,7 @@ export default function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
-            <ul>
-                <li className="active">
-                    Featured Projects
-                </li>
-            </ul>
+            <br></br>
             <div className="container">
                 <div className="item">
                     <img src={cyclist_screenshot} alt="" />
