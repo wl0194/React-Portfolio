@@ -23,6 +23,8 @@ const handleSubmit = (e) => {
             </div>
             <div className="right">
                 <h2>Hire Me!</h2>
+                <br></br>
+                <p>Currently I'm looking for full-time front-end/UI job.</p>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
