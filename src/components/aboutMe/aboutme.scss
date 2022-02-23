@@ -5,6 +5,11 @@
     background-color:#FBF8BE;
     display: flex;
 
+    .blue {
+        color: #234f70ec;
+        font-weight: bold;
+      }
+
     .left {
         flex: 0.4;
 
@@ -44,5 +49,8 @@
             font-size: 20px;
         }
 
+      
+
     }
+   
 }

@@ -4,11 +4,11 @@ import Works from "./components/works/Works"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import AboutMe from "./components/aboutMe/AboutMe";
-import Skills from "./components/skills/Skills";
+
 
 import "./app.scss"
 import { useState } from "react";
-import { Routes, Route, Link } from 'react-router-dom';
+
 
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Works/>
-      <Skills/>
       <Contact/>
     </div>
 

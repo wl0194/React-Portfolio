@@ -14,7 +14,7 @@ export default function AboutMe() {
                 <div className="wrapper">
                     <p className="quote">"I do not seek. I find."</p>
                     <br></br>
-                    <p className="aboutme">Hi, my name is Amy Hwang and I'm a bootcamp graduate from UPENN LPS Coding.<br></br>
+                    <p className="aboutme">Hi, my name is <span className="blue">Amy Hwang</span> and I'm a bootcamp graduate from <span className="blue">UPENN LPS Coding.</span><br></br>
                         I've always had interest in coding and during the bootcamp journey, <br></br>I realized I enjoy creating things that live on the internet.<br></br>
                         <br></br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                 </div>
