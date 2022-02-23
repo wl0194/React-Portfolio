@@ -5,13 +5,15 @@ import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import AboutMe from "./components/aboutMe/AboutMe";
 import Skills from "./components/skills/Skills";
+
 import "./app.scss"
 import { useState } from "react";
-
+import { Routes, Route, Link } from 'react-router-dom';
 
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -27,7 +29,7 @@ function App() {
     </div>
 
   );
-
+  
 }
 
 export default App;

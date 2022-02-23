@@ -12,10 +12,11 @@ export default function AboutMe() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h1>About Me 🧑‍💻</h1>
-                    <p>My name is Amy Hwang and I'm a bootcamp graduate from UPENN LPS Coding.<br></br>
+                    <p className="quote">"I do not seek. I find."</p>
+                    <br></br>
+                    <p className="aboutme">Hi, my name is Amy Hwang and I'm a bootcamp graduate from UPENN LPS Coding.<br></br>
                         I've always had interest in coding and during the bootcamp journey, <br></br>I realized I enjoy creating things that live on the internet.<br></br>
-                        <br></br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. <br></br> </p>
+                        <br></br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
                 </div>
             </div>
 
