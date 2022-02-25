@@ -1,6 +1,6 @@
 ## Links
 * [Github](https://github.com/wl0194)
-* [Live]()
+* [Live](https://wl0194.github.io/react-portfolio/)
 
 ## License
 
