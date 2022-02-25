@@ -1,9 +1,10 @@
-@import "../../global.scss";
+
 
 
 .AboutMe {
     background-color:#FBF8BE;
     display: flex;
+
 
     .blue {
         color: #234f70ec;
@@ -52,5 +53,24 @@
       
 
     }
+
+    .inner-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 3.5em;
+    
+    }
+
+    .btn-primary {
+        color: #FFF;
+        background-color:#234f70ec;
+        border-color:#234f70ec;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        padding: 0.375rem 0.75rem;
+      
+    }
+
+   
    
 }

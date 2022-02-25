@@ -56,6 +56,14 @@
         .icon-colour {
             color: #234f70ec;
           }
+
+        #submit-confirm {
+            font-size: 24px;
+            color:black;
+            width: 100%;
+            text-align: center;
+            
+          }
        
     }
     
@@ -70,10 +78,12 @@
         h1 {
             font-size: 50px;
             color: #234f70f7;
+            font-variant: small-caps;
         }
 
         p {
             color: #234f70c0;
+            
         }
 
     }
@@ -94,7 +104,6 @@
 
         p {
             color: #234f70c0;
-            font-variant: small-caps;
         }
 
         form {
@@ -130,6 +139,7 @@
                 font-weight: 500;
                 cursor: pointer;
             }
+
 
         }
         span {
