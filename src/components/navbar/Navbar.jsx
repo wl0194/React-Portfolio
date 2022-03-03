@@ -5,9 +5,6 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className={"navbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    {/* <a href="#intro" className="logo">
-                        AMY HWANG
-                    </a> */}
                 </div>
                 <div className="right"> 
                 <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
