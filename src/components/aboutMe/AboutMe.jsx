@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import pdf from "../../assets/images/resume.pdf";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function AboutMe() {
 
@@ -29,6 +30,12 @@ export default function AboutMe() {
                         className="aboutme">Hi, my name is <span className="blue">Amy Hwang</span> and I'm a bootcamp graduate from <span className="blue">UPENN LPS Coding.</span><br></br>
                         I've always had interest in coding and during the bootcamp journey, <br></br>I realized I enjoy creating things that live on the internet.<br></br>
                         <br></br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</motion.p>
+
+                        <p className="skillsIcon">
+                            
+                            <FontAwesomeIcon icon="fa-brands fa-css3" />
+                            
+                        </p>
                     <div className="inner-wrapper">
                         <Button variant="primary" href={pdf} target="_blank">
                             <AiOutlineDownload />
