@@ -5,10 +5,13 @@ import workout_tracker from "../../assets/images/workout_tracker.png"
 import notetaker from "../../assets/images/notetaker.png"
 import budget from "../../assets/images/budget.png"
 import card from "../../assets/images/card.png"
-
+// import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 
 export default function Works() {
+ 
     return (
         <div className="works" id="works">
             <h1>Works</h1>

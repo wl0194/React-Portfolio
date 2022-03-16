@@ -5,18 +5,18 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect } from "react";
-import AOS from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 
 
 export default function AboutMe() {
     useEffect(() => {
-        AOS.init({duration: 2000});
+        Aos.init({duration: 2000});
     }, []);
 
     return (
         <div className="AboutMe" id="aboutMe">
-            <div className="left">
+            < div className="left" data-aos="fade-right" >
                 <div className="imgContainer">
                     <img src={profile_image} alt="" />
                 </div>
