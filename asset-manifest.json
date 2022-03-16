@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.44b1b905.css",
-    "main.js": "/react-portfolio/static/js/main.45e3f664.js",
+    "main.css": "/react-portfolio/static/css/main.b0c23e9d.css",
+    "main.js": "/react-portfolio/static/js/main.a5830bbe.js",
     "static/media/cyclist.png": "/react-portfolio/static/media/cyclist.cda540ad60564c5c9b38.png",
     "static/media/profile_image.png": "/react-portfolio/static/media/profile_image.39937ebccf64e4e59d10.png",
     "static/media/budget.png": "/react-portfolio/static/media/budget.fa20e8f720c22ccf4f07.png",
-    "static/media/card.png": "/react-portfolio/static/media/card.1f14d611576ee0e56422.png",
+    "static/media/card.png": "/react-portfolio/static/media/card.42c743d81405a4ee0b7a.png",
     "static/media/typing_warrior.png": "/react-portfolio/static/media/typing_warrior.117fc93bc9fbbd7ef9a8.png",
     "static/media/workout_tracker.png": "/react-portfolio/static/media/workout_tracker.29a9d59b589b40a628b3.png",
     "static/media/notetaker.png": "/react-portfolio/static/media/notetaker.714947026b9752bf0690.png",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.153f0ba8ef6d183bbc11.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.44b1b905.css.map": "/react-portfolio/static/css/main.44b1b905.css.map",
-    "main.45e3f664.js.map": "/react-portfolio/static/js/main.45e3f664.js.map"
+    "main.b0c23e9d.css.map": "/react-portfolio/static/css/main.b0c23e9d.css.map",
+    "main.a5830bbe.js.map": "/react-portfolio/static/js/main.a5830bbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.44b1b905.css",
-    "static/js/main.45e3f664.js"
+    "static/css/main.b0c23e9d.css",
+    "static/js/main.a5830bbe.js"
   ]
 }
