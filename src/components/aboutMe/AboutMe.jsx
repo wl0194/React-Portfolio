@@ -16,7 +16,7 @@ export default function AboutMe() {
 
     return (
         <div className="AboutMe" id="aboutMe">
-            < div className="left" data-aos="fade-right" >
+            <div className="left" data-aos="fade-right" >
                 <div className="imgContainer">
                     <img src={profile_image} alt="" />
                 </div>
