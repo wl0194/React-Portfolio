@@ -12,15 +12,14 @@
         flex: 0.4;
 
         .imgContainer {
-            width: 700px;
-            height: 750px;
-            border-radius: 50%;
-            float: right;
-
+            height: 500px;
+            padding: 3vw;
+        
            
-            img {
+            .profile {
                 height: 100%;
-
+                border-radius: 50%;
+                box-shadow: 0 0 20px -10px;
             }
         }
 
@@ -46,8 +45,6 @@
             font-size: 20px;
         }
 
-      
-
     }
 
     .inner-wrapper {
@@ -71,7 +68,5 @@
             transition: all;
         }
     }
-
-   
    
 }
