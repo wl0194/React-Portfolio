@@ -39,7 +39,8 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
-            background:#FFF;
+            background:#FFF7EA;
+            color: #3E2C26;
 
             > div {
                 padding: 3rem;            
@@ -60,7 +61,7 @@
                 text-decoration: none;
              }
             
-            p {
+            .description {
                 font-weight: 100;
             }
 
@@ -70,7 +71,7 @@
             order: 2;
         }
 
-        .btn {
+        .hvr-shrink {
             display: inline-block;
             background-color: #E49D22;
             vertical-align: middle;
@@ -86,12 +87,9 @@
             margin-top: 2rem;
             cursor: pointer;
 
-            :hover {
-                opacity: 0.3;
-            }
         }
     
-          .btn:hover, .hvr-shrink:focus, .hvr-shrink:active {
+          .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
             -webkit-transform: scale(0.9);
             transform: scale(0.9);
             opacity: 0.8;
