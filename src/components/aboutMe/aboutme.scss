@@ -3,8 +3,8 @@
     display: flex;
 
 
-    .blue {
-        color: #234f70ec;
+    .brown {
+        color: #484738;
         font-weight: bold;
       }
 
@@ -29,9 +29,9 @@
     .right {
         flex: 0.6;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        align-items:center;
         color: #484738;
+        max-width: 700px;
 
         .aboutme {
             font-weight: 100;
@@ -58,14 +58,14 @@
 
     .btn-primary {
         color: #FFF;
-        background-color:#E49D22;
+        background-color:#f0a525;
         border-radius: 0.25rem;
         cursor: pointer;
         padding: 0.375rem 0.75rem;
         text-decoration: none;
 
         :hover {
-            opacity: 0.9;
+            opacity: 0.8;
             transition: all;
         }
     }

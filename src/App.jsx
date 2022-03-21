@@ -5,10 +5,9 @@ import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import AboutMe from "./components/aboutMe/AboutMe";
 
+
 import "./app.scss"
 import { useState } from "react";
-
-
 
 
 

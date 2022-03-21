@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 
 export default function AboutMe() {
     useEffect(() => {
-        Aos.init({duration: 2000, offset: 100});
+        Aos.init({ duration: 2000, offset: 100 });
     }, []);
 
     return (
@@ -25,15 +25,18 @@ export default function AboutMe() {
                 <div className="wrapper">
                     <div data-aos="fade-up" className="quote">"I do not seek. I find."</div>
                     <br></br>
-                    <div data-aos="fade-up" className="aboutme">Hi, my name is <span className="blue">Amy Hwang</span> and I'm a bootcamp graduate from <span className="blue">UPENN LPS Coding.</span><br></br>
-                        I've always had interest in coding and during the bootcamp journey, <br></br>I realized I enjoy creating things that live on the internet.<br></br>
-                        <br></br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</div>
+                    <div data-aos="fade-up" className="aboutme">Hi, my name is <span className="brown">Amy Hwang</span> and I'm a graduate from a full stack bootcamp offered by <span className="brown">University of Pennsylvania. </span>
+                        I've always had interest in coding and during the bootcamp journey, I realized I truly enjoy creating things that live on the internet.<br></br><br></br>
+                        I'm a <span className="brown">UI focused developer</span> who is not afraid of acquiring new skills and loves tackling new challenges
+                        and also I have serious passion for <span className="brown">UI effects</span>, <span className="brown">animations</span> and creating intuitive, dynamic user experiences.</div>
 
-                    {/* <p className="skillsIcon">
+
+
+                    <p className="skillsIcon">
                         <FontAwesomeIcon icon="fa-brands fa-html5" />
                         <FontAwesomeIcon icon="fa-brands fa-css3" />
-                    </p> */}
-                    
+                    </p>
+
                     <div data-aos="fade-up" className="inner-wrapper">
                         <Button variant="primary" href={pdf} target="_blank">
                             <AiOutlineDownload />

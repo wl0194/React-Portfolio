@@ -19,7 +19,7 @@
         margin-top: 24px;
         padding-bottom: 10px;
         padding-right: 15px;
-        border-right: 3px solid #E49D22;
+        border-right: 3px solid #f0a525;
         color: #000000b3;
 
     }
@@ -39,7 +39,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
-            background:#FFF7EA;
+            background:#FDF7EA;
             color: #3E2C26;
 
             > div {
@@ -73,7 +73,7 @@
 
         .hvr-shrink {
             display: inline-block;
-            background-color: #E49D22;
+            background-color: #f0a525;
             vertical-align: middle;
             -webkit-transform: perspective(1px) translateZ(0);
             transform: perspective(1px) translateZ(0);
