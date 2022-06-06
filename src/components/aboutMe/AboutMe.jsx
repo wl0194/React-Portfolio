@@ -25,10 +25,13 @@ export default function AboutMe() {
                 <div className="wrapper">
                     <div data-aos="fade-up" className="quote">"I do not seek. I find."</div>
                     <br></br>
-                    <div data-aos="fade-up" className="aboutme">Hi, my name is <span className="brown">Amy Hwang</span> and I'm a graduate from a full stack bootcamp offered by <span className="brown">University of Pennsylvania. </span>
-                        I've always had interest in coding and during the bootcamp journey, I realized I truly enjoy creating things that live on the internet.<br></br><br></br>
+                    <div data-aos="fade-up" className="aboutme">Hi, my name is <span className="brown">Amy Hwang</span> and I'm a graduate from a full stack bootcamp offered through <span className="brown">University of Pennsylvania. </span>
+                        From the moment I produced "Hello World" in the console of my first application, I knew I was hooked into the world of software development. It has offered an engaging challenge to continually learn and improve any skills in creating high-quality software.<br></br><br></br>
                         I'm a <span className="brown">UI focused developer</span> who is not afraid of acquiring new skills and loves tackling new challenges
-                        and also I have serious passion for <span className="brown">UI effects</span>, <span className="brown">animations</span> and creating intuitive, dynamic user experiences.</div>
+                        and also I have serious passion for <span className="brown">UI effects</span>, <span className="brown">animations</span> and creating intuitive, dynamic user experiences.<br></br><br></br>
+                        What started with a simple "Hello, World" has become a full-fledged passion that only gets more exciting as the years go by.
+                        Below you'll find projects I've completed that showcase my skills and general background in developing software.
+                        </div>
 
 
 
