@@ -17,7 +17,7 @@ export default function Works() {
 
     return (
         <div className="works" id="works">
-            <h1 data-aos="fade-up">Works</h1>
+            <h1 data-aos="fade-up">Projects</h1>
             <div className="container">
             <section className="item">
                     <img src={card} alt="" />
