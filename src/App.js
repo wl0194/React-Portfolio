@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
-import Intro from "./components/intro/Intro"
-import Works from "./components/works/Works"
+import Intro from "./components/intro/Intro";
+import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
 import AboutMe from "./components/aboutMe/AboutMe";
@@ -23,7 +23,7 @@ function App() {
         <AboutMe />
         <Works />
         <Contact />
-    </div>
+      </div>
     </div>
   );
 
